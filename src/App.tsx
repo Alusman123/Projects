@@ -1,25 +1,33 @@
 import './App.css'
 import { BriefInfoScreen } from './Screen/BriefInfoScreen'
 import { Mainpage } from './Screen/MainPage';
+import { Header } from './Screen/HeaderContent';
 import TopoBg from './assets/topgif.mp4';
 
 function App() {
   return (
-    <div className="relative min-h-screen w-full flex items-center justify-center">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src={TopoBg} type="video/mp4" />
-      </video>
+    <div>
 
-  <Mainpage/>
-  
+      <div className="relative min-h-screen w-full flex items-center justify-center">
+        
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src={TopoBg} type="video/mp4" />
+        </video>
+
+        <header className='bg-black absolute top-0 left-0 z-50 flex items-center justify-between border-b-[1.5px] border-white rounded-b-[40px] w-full h-[100px] px-8'>
+        <Header/>
+        </header>
+
+        <Mainpage />
+      </div>
+
     </div>
-    
   )
 }
 
