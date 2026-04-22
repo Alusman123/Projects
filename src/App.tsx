@@ -29,10 +29,17 @@ function App() {
           />
         </header>
 
-        {showLanding
+        <div className='flex flex-col gap-0'>
+
+            {showLanding
           ? <Landing />
           : <Mainpage active={active} />
         }
+
+    
+ 
+        </div>
+      
         
       </div>
     </div>
