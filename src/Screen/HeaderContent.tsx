@@ -17,7 +17,7 @@ export function Header({ active, setActive }: HeaderProps) {
 
   return (
     <div className='flex items-center justify-between w-full'>
-      <div className="flex justify-center items-center flex-row gap-3">
+      <div className="ml-[200px] flex justify-center items-center flex-row gap-3">
         <img
           src={Profile}
           alt="Profile"
@@ -28,7 +28,7 @@ export function Header({ active, setActive }: HeaderProps) {
         </div>
       </div>
 
-      <nav className='flex gap-6'>
+      <nav className='flex gap-6 mr-[200px]'>
         {navItems.map(({ label, id }) => (
           <button
             key={id}

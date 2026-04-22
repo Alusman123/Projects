@@ -23,7 +23,7 @@ function App() {
           <source src={TopoBg} type="video/mp4" />
         </video>
 
-        <header className='bg-black absolute top-0 left-0 z-50 flex items-center justify-between border-b-[1.5px] border-white rounded-b-[40px] w-full h-[100px] px-8'>
+        <header className='bg-black absolute top-0 left-0 z-50 flex items-center justify-between border-b-[1.5px] border-white rounded-b-[40px] w-full h-[85px] px-8'>
           <Header active={active} setActive={setActive} />
         </header>
 
