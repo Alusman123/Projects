@@ -26,7 +26,7 @@ export function Resume() {
 
         <div className="flex flex-col">
           <div>
-            <div className="flex justify-center items-center text-[40px]">AL K. Usman Jr.</div>
+            <div className="flex justify-center items-center text-[40px]">A K. Usman Jr.</div>
             <div className="flex flex-row gap-3">
               <div>Alimansu76@gmail.com</div>
               <div>09091931036 </div>
