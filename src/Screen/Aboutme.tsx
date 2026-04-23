@@ -84,11 +84,7 @@ export function Resume() {
               I am part of the development team at Grid Property Ventures, a startup focused on delivering innovative mobile solutions in the real estate industry. As a member of the mobile app development team, I collaborate with designers, backend developers, and stakeholders to build and enhance features that streamline property listing, management, and user interaction. I contribute to developing, testing, and optimizing application functionalities to ensure a smooth and reliable user experience for both property owners and clients.
             </div>
             <div className="flex flex-wrap gap-2 mt-1">
-              {["React Native", "HTML/CSS/JS", "MongoDB", "Git", "React", "NodeJS", "Firebase", "A.I Prompt"].map((tech) => (
-                <span key={tech} className="border border-current rounded-full px-3 py-[2px] text-xs font-medium">
-                  {tech}
-                </span>
-              ))}
+            
             </div>
           </div>
         </div>
